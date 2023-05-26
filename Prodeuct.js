@@ -220,3 +220,5 @@ db.products.find({$and:
     [{product_price:492.00},{product_color:"indigo"}] })
 
 // 10.Delete the products which product price value are same
+
+db.products.find({$and:[{price:500},{value:1}]})
